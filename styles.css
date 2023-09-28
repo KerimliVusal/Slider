@@ -14,7 +14,13 @@ body {
   width: 58%;
   overflow: hidden;
 }
-
+.text-container{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.2)!important;
+}
 .slide-track {
   display: flex;
   position: relative;
@@ -45,7 +51,7 @@ body {
 
 .slide-text {
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 0;
   width: 100%;
   color: rgb(217, 215, 215);
@@ -53,16 +59,21 @@ body {
   margin-left: 10px;
   width: 90%;
   text-align: left;
+  letter-spacing: 0.7px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+
 }
 
 .description {
   position: absolute;
-  bottom: 40px;
+  bottom: 54px;
   left: 0;
   width: 100%;
   color: rgb(227, 227, 227);
   padding: 8px;
   margin-left: 10px;
+  font-size: 14px;
 }
 
 .imageName {
@@ -71,7 +82,7 @@ body {
 
 .imageFooter {
   position: absolute;
-  bottom: -20px;
+  bottom: -15px;
   left: 0;
   width: 100%;
   color: rgb(227, 227, 227);
@@ -79,6 +90,8 @@ body {
   color: #dab005;
   margin-left: 10px;
   width: 95%;
+  font-size: 14px;
+
 
 }
 
